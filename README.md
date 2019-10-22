@@ -6,7 +6,9 @@ This is the repository for the publication
 >
 > **Feature-Dependent Confusion Matrices for Low-Resource NER Labeling with Noisy Labels**
 >
-> EMNLP 2019
+> EMNLP 2019 
+>
+> https://arxiv.org/abs/1910.06061
 
 ## Noise-Handling Architectures
 In this repository, you can find implementations for the following noisy-label neural network architectures:
@@ -43,7 +45,7 @@ The repository has the following structure
   * *noisematrix.py*: Utility code for noise matrices, including visualization.
   * *experimentalsettings.py*: Utility code to store experimental configurations.
 * *config*: Example configurations for the different experiments.
-* *data*: Due to legal reasons, this repository only contains some dummy data. The CoNLL02/03 datasets are widely available. The Estonian NER dataset can be obtained [here](https://metashare.ut.ee/repository/browse/estonian-ner-corpus/88d030c0acde11e2a6e4005056b40024f1def472ed254e77a8952e1003d9f81e/).
+* *data*: Due to legal reasons, this repository only contains some dummy data. The CoNLL02/03 datasets are widely available. The Estonian NER dataset can be obtained [here](https://metashare.ut.ee/repository/browse/estonian-ner-corpus/88d030c0acde11e2a6e4005056b40024f1def472ed254e77a8952e1003d9f81e/). Clean and noisy training data need to be parallel (see dummy data). The data needs to be in the CoNLL BIO2 format.
  
  
 ## License & Citation
