@@ -8,7 +8,7 @@ This is the repository for the publication
 >
 > EMNLP 2019 
 >
-> https://arxiv.org/abs/1910.06061
+> https://www.aclweb.org/anthology/D19-1362/
 
 ## Noise-Handling Architectures
 In this repository, you can find implementations for the following noisy-label neural network architectures:
@@ -56,8 +56,12 @@ The code is licensed under Apache 2, so feel free to use it in your projects. If
 @InProceedings{Lange2019FeatureDependent,
   author = "Lange, Lukas and Hedderich, Michael A. and Klakow, Dietrich",
   title = "Feature-Dependent Confusion Matrices for Low-Resource NER Labeling with Noisy Labels",
-  booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+  booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
   year = "2019",
+  address = "Hong Kong, China",
+  url = "https://www.aclweb.org/anthology/D19-1362",
+  doi = "10.18653/v1/D19-1362",
+  pages = "3545--3550",
   publisher = "Association for Computational Linguistics"
 }
 ```
