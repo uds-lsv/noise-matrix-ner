@@ -22,7 +22,7 @@ import logging
 from collections import Counter
 
 import numpy as np
-import fastText
+import fasttext
 
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
@@ -191,7 +191,7 @@ class WordEmbedding:
     def load_fasttext(self, fasttext_path):
         logging.debug(f"Loading FastText from {fasttext_path}")
 
-        embedding = fastText.load_model(fasttext_path)
+        embedding = fasttext.load_model(fasttext_path)
         self.embedding_model = FastTextWrapper(embedding)
         self.embedding_vector_size = 300
         
